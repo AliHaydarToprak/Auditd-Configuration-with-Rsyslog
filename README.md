@@ -148,9 +148,9 @@ rsyslog konfigürasyon dosyası açılarak var ise daha öncesinden bir qradar y
 
 ### 1.5 Servislerin Yapılandırılması
 
-    service firewalld stop
-    systemctl disable firewalld
-    service auditd restart
-    systemctl enable auditd
-    systemctl restart rsyslog
-    systemctl enable rsyslog
+    sudo service firewalld stop
+    sudo systemctl disable firewalld
+    sudo service auditd restart
+    sudo systemctl enable auditd
+    sudo systemctl restart rsyslog
+    sudo systemctl enable rsyslog
