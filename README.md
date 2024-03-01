@@ -41,8 +41,10 @@ Eğer log_format = RAW ise bu satır log_format = ENRICHED olacak şekilde deği
 -----------------------------------------------------------------------------------
 
     sudo vi /etc/audit/plugins.d/syslog.conf 
-eğer bu dosya boş ise 
-    vi /etc/audisp/plugins.d/syslog.conf 
+eğer bu dosya boş ise
+
+    sudo vi /etc/audisp/plugins.d/syslog.conf 
+
 dosyası açılarak active = no olması kontrol edilir yes ise no ile değiştirilmelidir.
 
 ### 1.4 Rsyslog Konfigürasyonu
