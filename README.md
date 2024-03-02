@@ -24,11 +24,9 @@ yukarıdaki dosya açılarak dosyanın içeriği tamamen temizlenir ve aşağıd
     ## Set failure mode to syslog
     -f 1
 
-    -a always,exit -F arch=b64 -S all -k all_activities
-    -a always,exit -F arch=b32 -S all -k all_activities
+    ##Sample Rules Here
 
-Not : Yukarıdaki belirtilen auditd kuralları tüm işlemleri izlemek ve örnek logları görmek için yazılmış olan kurallardır. Tüm işlemleri izlemek, büyük miktarda log üretebilir ve sistem performansını etkileyebilir. Bu nedenle, bu tür geniş kapsamlı kuralları kullanmadan önce, sisteminizdeki gereksinimleri dikkatlice değerlendirmeniz ve sadece izlemeniz gereken olayları izlemeye odaklanmanız önemlidir.
-
+Not : Yukarıdaki belirtilen "##Sample Rules Here" ile eklenecek kurallar dikkatli seçilmelidir aksi halde büyük miktarda log üretebilir ve sistem performansını etkileyebilir. Bu nedenle, bu tür geniş kapsamlı kuralları kullanmadan önce, sisteminizdeki gereksinimleri dikkatlice değerlendirmeniz ve sadece izlemeniz gereken olayları izlemeye odaklanmanız önemlidir.
 
 ### 1.3 Auditd Konfigürasyonu
 Auditd de logun daha anlaşılabilir olması için logun zenginleştirilmesi aktif edilir.
@@ -102,10 +100,9 @@ yukarıdaki dosya açılarak dosyanın içeriği tamamen temizlenir ve aşağıd
     ## Set failure mode to syslog
     -f 1
 
-    -a always,exit -F arch=b64 -S all -k all_activities
-    -a always,exit -F arch=b32 -S all -k all_activities
+    ##Sample Rules Here
 
-Not : Yukarıdaki belirtilen auditd kuralları tüm işlemleri izlemek ve örnek logları görmek için yazılmış olan kurallardır. Tüm işlemleri izlemek, büyük miktarda log üretebilir ve sistem performansını etkileyebilir. Bu nedenle, bu tür geniş kapsamlı kuralları kullanmadan önce, sisteminizdeki gereksinimleri dikkatlice değerlendirmeniz ve sadece izlemeniz gereken olayları izlemeye odaklanmanız önemlidir.
+Not : Yukarıdaki belirtilen "##Sample Rules Here" kısmına eklenecek kurallar dikkatli seçilmelidir aksi halde büyük miktarda log üretebilir ve sistem performansını etkileyebilir. Bu nedenle, bu tür geniş kapsamlı kuralları kullanmadan önce, sisteminizdeki gereksinimleri dikkatlice değerlendirmeniz ve sadece izlemeniz gereken olayları izlemeye odaklanmanız önemlidir.
 
 
 ### 1.3 Auditd Konfigürasyonu
