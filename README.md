@@ -26,7 +26,10 @@ yukarıdaki dosya açılarak dosyanın içeriği tamamen temizlenir ve aşağıd
 
     ##Sample Rules Here
 
+
 Not : Yukarıdaki belirtilen "##Sample Rules Here" ile eklenecek kurallar dikkatli seçilmelidir aksi halde büyük miktarda log üretebilir ve sistem performansını etkileyebilir. Bu nedenle, bu tür geniş kapsamlı kuralları kullanmadan önce, sisteminizdeki gereksinimleri dikkatlice değerlendirmeniz ve sadece izlemeniz gereken olayları izlemeye odaklanmanız önemlidir.
+
+İncelemeniz için örnek bırakıyorum : https://github.com/Neo23x0/auditd/blob/master/audit.rules
 
 ### 1.3 Auditd Konfigürasyonu
 Auditd de logun daha anlaşılabilir olması için logun zenginleştirilmesi aktif edilir.
@@ -104,6 +107,7 @@ yukarıdaki dosya açılarak dosyanın içeriği tamamen temizlenir ve aşağıd
 
 Not : Yukarıdaki belirtilen "##Sample Rules Here" kısmına eklenecek kurallar dikkatli seçilmelidir aksi halde büyük miktarda log üretebilir ve sistem performansını etkileyebilir. Bu nedenle, bu tür geniş kapsamlı kuralları kullanmadan önce, sisteminizdeki gereksinimleri dikkatlice değerlendirmeniz ve sadece izlemeniz gereken olayları izlemeye odaklanmanız önemlidir.
 
+İncelemeniz için örnek bırakıyorum : https://github.com/Neo23x0/auditd/blob/master/audit.rules
 
 ### 1.3 Auditd Konfigürasyonu
 
